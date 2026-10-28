@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the existing trained model and preprocessing objects
-package = joblib.load("crop_recommendation_model.pkl")
+package = joblib.load("Final_crop_recommendation_model.pkl")
 
 model = package["model"]
 scaler = package["scaler"]
