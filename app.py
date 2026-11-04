@@ -113,11 +113,7 @@ if st.button("🌾 Recommend Top 3 Crops", type="primary"):
             )
         )
 
-    st.caption(
-        "These scores are Random Forest predicted class probabilities. "
-        "They are not calibrated guarantees of correctness, and they "
-        "do not represent the probability of successful crop growth."
-    )
+   
 
     with st.expander("View prediction table"):
         st.dataframe(
@@ -126,8 +122,4 @@ if st.button("🌾 Recommend Top 3 Crops", type="primary"):
             use_container_width=True
         )
 
-    st.warning(
-        "Before planting, verify the recommendation using a soil test, "
-        "local climate, water availability, season, and advice from "
-        "a qualified agricultural expert."
-    )
+    
